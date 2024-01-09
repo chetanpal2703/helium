@@ -79,3 +79,68 @@
     cursor: pointer;
   }
   
+  .example-container {
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid #555;
+  }
+
+//   /* src/app/app.component.css */
+
+// .sidenav-container {
+//   height: 100%;
+// }
+
+// .sidenav {
+//   width: 30%;
+// }
+
+// .main-content {
+//   margin-left: 30%;
+// }
+
+// .content {
+//   padding: 16px;
+// }
+.logo-dashboard img{
+  max-width:  200px;
+  text-align: center;
+}
+.dashboard-heading{
+  color: #393939;
+}
+
+
+/* src/app/app.component.css */
+
+.sidenav-container {
+  height: 100vh;
+}
+
+.sidenav {
+  width: 250px; /* Set the initial width of the sidebar */
+}
+
+.sidenav-toolbar {
+  justify-content: center;
+}
+
+.main-content {
+  margin-left: 250px; /* Set the initial margin for the main content */
+}
+
+.content {
+  padding: 16px;
+}
+
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .sidenav {
+    width: 0;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+}
